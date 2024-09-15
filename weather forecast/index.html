@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- <script src="https://kit.fontawesome.com/3710696c33.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>WEATHER APP</h1>
+    <section class="first">
+      <div class="relative">
+        <div class="input">
+          <h2 class="city"></h2>
+          <input type="text" placeholder="Wpisz nazwę miasta...">
+          <button>
+            <p class="button">WYŚLIJ</p>
+          </button>
+          <p class="error">Wpisz poprawną nazwę miasta!</p>
+        </div>
+        <div class="img">
+          <img src="./img/unknown.png" alt="Obrazek przedstawiający pogodę" class="photo">
+        </div>
+      </div>
+    </section>
+    <section class="second">
+      <div>WEATHER:</div>
+      <div>TEMPERATURE:</div>
+      <div>HUMIDITY:</div>
+    </section>
+    <section class="third">
+      <div class="weather"></div>
+      <div class="temperature"></div>
+      <div class="humidity"></div>
+    </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
