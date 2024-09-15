@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- <script src="https://kit.fontawesome.com/3710696c33.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <input type="text" class="popup" value="Wpisz Hasło">
+  <div class="curtain">
+    <h1>wisielec</h1>
+  </div>
+  <header>
+    <div class='password'></div>
+  </header>
+  <section class='photo'><img src="img/s0.jpg" alt="wisielec"></section>
+  <section class='letters'>
+    <div>
+      <button>a</button>
+      <button>ą</button>
+      <button>b</button>
+      <button>c</button>
+      <button>ć</button>
+      <button>d</button>
+      <button>e</button>
+    </div>
+    <div>
+      <button>ę</button>
+      <button>f</button>
+      <button>g</button>
+      <button>h</button>
+      <button>i</button>
+      <button>j</button>
+      <button>k</button>
+    </div>
+    <div>
+      <button>l</button>
+      <button>ł</button>
+      <button>m</button>
+      <button>n</button>
+      <button>ń</button>
+      <button>o</button>
+      <button>ó</button>
+    </div>
+    <div>
+      <button>p</button>
+      <button>q</button>
+      <button>r</button>
+      <button>s</button>
+      <button>ś</button>
+      <button>t</button>
+      <button>u</button>
+    </div>
+    <div>
+      <button>v</button>
+      <button>w</button>
+      <button>x</button>
+      <button>y</button>
+      <button>z</button>
+      <button>ż</button>
+      <button>ź</button>
+    </div>
+  </section>
+  <section class='win hidden'>
+    <p>Tak jest! Podano prawidłowe hasło: <span></span></p>
+    <button class='restart'>JESZCZE RAZ?</button>
+  </section>
+  <section class='lose hidden'>
+    <p>Przegrana! Prawidłowe hasło: <span></span></p>
+    <button class='restart'>JESZCZE RAZ?</button>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
