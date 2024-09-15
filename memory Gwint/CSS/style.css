@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(38, 40, 46);
+	color: rgb(32, 151, 129);
+	font-family: 'Lobster Two', cursive;
+}
+
+div.header {
+	display: flex;
+	justify-items: center;
+	flex-direction: column;
+	margin: 30px 0;
+}
+
+div.header header {
+	text-align: center;
+	font-size: 72px;
+}
+
+div.header h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
+div.board {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+div.board div {
+	width: 135px;
+	height: 135px;
+	margin: 25px;
+	border: 5px rgb(81, 200, 178) solid;
+	background-image: url(karta.png);
+	transition: 0.3s;
+	cursor: pointer;
+	filter: brightness(0.7);
+	overflow: hidden;
+}
+
+div.board div:hover {
+	border-color: rgb(32, 151, 129);
+	filter: brightness(1);
+}
+
+div.counter {
+	margin: 40px 0;
+	text-align: center;
+	font-size: 32px;
+}
+
+img {
+	transition: 0.3s ease-in-out;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.ghost {
+	transform: translateY(125px);
+	opacity: 0;
+	pointer-events: none;
+}
+
+.active {
+	pointer-events: none;
+}
+
+div.win {
+	position: fixed;
+	top: 35%;
+	left: 30%;
+	width: 40%;
+	font-size: 80px;
+	transition: 0.7s;
+	text-align: center;
+}
