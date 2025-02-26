@@ -1,8 +1,5 @@
 # Hangman
 
-```markdown
-# Hangman Game
-
 ## Opis
 
 Implementacja gry "Wisielec" w JavaScript.
@@ -18,4 +15,3 @@ Implementacja gry "Wisielec" w JavaScript.
 1. Sklonuj repozytorium: `git clone <repo-url>`
 2. Przejdź do katalogu `hangman`
 3. Otwórz `index.html` w przeglądarce.
-```

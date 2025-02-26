@@ -1,8 +1,5 @@
 # Memory Gwint
 
-```markdown
-# Memory Gwint
-
 ## Opis
 
 Gra pamięciowa inspirowana kartami z gry "Gwint".
@@ -18,4 +15,3 @@ Gra pamięciowa inspirowana kartami z gry "Gwint".
 1. Sklonuj repozytorium: `git clone <repo-url>`
 2. Przejdź do katalogu `memory-gwint`
 3. Otwórz `index.html` w przeglądarce.
-```

@@ -1,8 +1,5 @@
 # Today
 
-```markdown
-# Today
-
 ## Opis
 
 Aplikacja wyświetlająca aktualną datę i godzinę z dodatkowymi funkcjami.
@@ -18,4 +15,3 @@ Aplikacja wyświetlająca aktualną datę i godzinę z dodatkowymi funkcjami.
 1. Sklonuj repozytorium: `git clone <repo-url>`
 2. Przejdź do katalogu `today`
 3. Otwórz `index.html` w przeglądarce.
-```
