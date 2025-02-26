@@ -28,3 +28,7 @@ Zbiór małych projektów webowych stworzonych w celu rozwijania umiejętności 
 
 6. [Weather Forecast](./weather-forecast/README.md)
    - Aplikacja pogodowa pobierająca dane z zewnętrznego API.
+
+## 📜 Licencja
+
+Ten kod jest udostępniony na podstawie licencji MIT. Zobacz [LICENSE](./LICENSE) po więcej informacji.
