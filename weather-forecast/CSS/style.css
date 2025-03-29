@@ -1,4 +1,4 @@
-* {
+/* * {
 	display: block;
 	box-sizing: border-box;
 	margin: 0;
@@ -22,7 +22,7 @@ body {
 	border-radius: 20px;
 	color: white;
 	padding: 25px 56px;
-}
+} */
 
 h1 {
 	text-align: center;
