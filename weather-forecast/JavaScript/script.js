@@ -18,7 +18,6 @@ const getWeather = () => {
 	axios
 		.get(URL)
 		.then(res => {
-			console.log(res.data)
 			const temp = res.data.main.temp
 			const hum = res.data.main.humidity
 			const status = Object.assign({}, ...res.data.weather)
