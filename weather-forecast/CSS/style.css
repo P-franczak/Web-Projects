@@ -1,9 +1,9 @@
-* {
+/* * {
 	display: block;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-}
+} */
 
 body {
 	height: 100vh;
@@ -11,7 +11,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .wrapper {
+.wrapper {
 	position: fixed;
 	top: 20%;
 	bottom: 20%;
@@ -22,7 +22,7 @@ body {
 	border-radius: 20px;
 	color: white;
 	padding: 25px 56px;
-} */
+}
 
 h1 {
 	text-align: center;
